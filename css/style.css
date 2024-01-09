@@ -1,0 +1,397 @@
+body {
+
+    background-image: url('/assets/photo_2024-01-08_21-06-10.jpg');
+    background-size: cover; /* Chọn "cover" để hình ảnh background tự động thích ứng với kích thước của body */
+    height: 490vh;
+    margin: 0;
+    display: flex;
+}
+.quan{
+    text-align: right;
+
+}
+.quan img{
+    /* Thêm kiểu CSS cho nội dung trang (nếu có) */
+    margin-top: 190px;
+    margin-left: 950px;
+}
+.quan2 img {
+    margin-top: 300px;
+    margin-left: -695px;
+}
+.quan3{
+    font-family: 'permanent marker', cursive;
+    margin-top: 140px;
+    margin-left: -1595px;
+    color: white;
+    font-size: 55px;
+}
+.quan3 h2{
+    font-size: 20px;
+}
+.quan3 p{
+    font-size: 20px;
+}
+.btn {
+    /* display: inline-block; */
+   
+    color: #06a6f0;
+    margin-left: 20px;
+    font-size: 30px;
+    /* font-weight: bold; */
+  }
+  .btn1 {
+    /* display: inline-block; */
+   
+    color: #fcfcfc;
+    margin-left: 20px;
+    font-size: 30px;
+    /* font-weight: bold; */
+  }
+  .quan4 h1{
+    font-family: 'permanent marker', cursive;
+    margin-top: -390px;
+    color: white;
+    font-size: 55px;
+    margin-left:200px;
+  }
+  .quan4 p{
+    font-family: 'permanent marker', cursive;
+
+    font-size: 28px;
+    color: white;
+    margin-left: 200px;
+    margin-right: 100px;
+  }
+  .quan4 img{
+    margin-top: 1100px;
+    margin-left: -400px;
+  }
+
+  .quan5 img{
+    margin-top: 1900px;
+    margin-left: -1159px;
+ 
+  }
+  .quan5 h1{
+    font-family: 'permanent marker', cursive;
+  margin-top: 30px;
+    color: white;
+    font-size: 55px;
+    margin-left: -1270px;
+  }
+  .quan5 p{
+    font-family: 'permanent marker', cursive;
+  margin-top: 30px;
+    color: white;
+    font-size: 35px;
+    margin-left: -1040px;
+  }
+  .quan5 h2{
+    font-family: 'permanent marker', cursive;
+  margin-top: 30px;
+    color: white;
+    font-size: 35px;
+    margin-left: -1115px;
+  }
+  .quan5 h3{
+    font-family: 'permanent marker', cursive;
+  margin-top: 30px;
+    color: white;
+    font-size: 35px;
+    margin-left: -1155px;
+  }
+  .quan6 img{
+    margin-top: 2800px;
+    margin-left: -1159px;
+  }
+  .quan7 img{
+    margin-top: 100px;
+    margin-left: -1680px;
+  }
+  .quan7 h1{
+    font-family: 'permanent marker', cursive;
+    color: white;
+    font-size: 35px;
+    margin-left: -1560px;
+    margin-top: -360px;
+
+}
+.quan7 p{
+    font-family: 'permanent marker', cursive;
+    color: white;
+    font-size: 25px;
+    margin-left: -1600px;
+    margin-top: 0;
+}
+.quan8 img{
+    margin-top: -393px;
+    margin-left: -1080px;
+  }
+  .quan8 h1{
+    font-family: 'permanent marker', cursive;
+    color: white;
+    font-size: 35px;
+    margin-left: -970px;
+    margin-top: -360px;
+
+}
+.quan8 p{
+    font-family: 'permanent marker', cursive;
+    color: white;
+    font-size: 25px;
+    margin-left: -980px;
+    margin-top: 0;
+}
+.quan8 h2{
+    font-family: 'permanent marker', cursive;
+    color: white;
+    font-size: 22px;
+    margin-left: -1010px;
+    margin-top: 0;
+}
+.quan9 img{
+    margin-top: -410px;
+    margin-left: -480px;
+  }
+  .quan9 h1{
+    font-family: 'permanent marker', cursive;
+    color: white;
+    font-size: 35px;
+    margin-left: -360px;
+    margin-top: -360px;
+
+}
+.quan9 p{
+    font-family: 'permanent marker', cursive;
+    color: white;
+    font-size: 22px;
+    margin-left: -430px;
+    margin-top: 0;
+}
+
+.quan10 img{
+    margin-top: 400px;
+    margin-bottom: -30px;
+    margin-left: -1380px;
+  }
+  .quan11 img{
+    margin-top: -480px;
+    margin-bottom: -15px;
+    margin-left: -1030px;
+  }
+  .quan12 img{
+    margin-top: -400px;
+    margin-left: -660px;
+  }
+  .ourpartner{
+    margin-top: 300px;
+    margin-left: -1800px;
+  }
+  
+  .ourpartner div {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 10px #dad8d8bd;
+}
+@keyframes move {
+    0% {
+        transform: translate(0 , 0);
+    }
+
+    100% {
+        
+        transform: translate(calc((-8 * 11vw)) , 0);
+    }
+}
+.ourpartner div img{
+    position: relative;
+    border-radius: 50%;
+    width: 5vw;
+    margin: 1vw 3vw;
+    animation: move 20s linear infinite;
+}
+@media (max-width: 960px) {
+    body {
+
+        background-color: rgb(6, 8, 24);/* Chọn màu nâu theo mã HEX hoặc tên màu */
+        height: 480vh; /* Thiết lập chiều cao của trang bằng 100% chiều cao của viewport */
+        margin: 0;
+        display: flex;
+    }
+    .quan2 img{
+        width: 230px;
+        height: 100px;
+        margin-top: 840px;
+        margin-left: -282px;
+    }
+    .quan3{
+        font-family: 'permanent marker', cursive;
+        margin-top: 140px;
+        margin-left: -350px;
+        color: white;
+        font-size: 30px;
+    }
+    .quan3 h2{
+        font-size: 10px;
+    }
+    .quan3 p{
+        font-size: 10px;
+    }
+    .quan img{
+        /* Thêm kiểu CSS cho nội dung trang (nếu có) */
+        margin-top: 800px;
+        margin-left: 22px;
+        width: 350px;
+        height: 180px;
+    }
+   
+    .quan4 img{
+        margin-left: -350px;
+        width: 320px;
+        height: 250px;
+    }
+  
+    .quan4 h1{
+        font-size: 30px;
+        margin-top: 70px;
+        margin-left: -230px;
+    }
+    .quan4 p{
+        font-size: 12px;
+        align-content: left;
+        margin-left: -280px;
+        margin-top: -15px;
+
+    }
+    .quan5 img{
+        margin-top: 1900px;
+        margin-left: -360px;
+        width: 350px;
+        height: 280px;
+    }
+    .quan5 h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: -300px;
+        font-size: 20px;
+    }
+    .quan5 p{
+        font-size: 15px;
+        margin-left: -220px;
+    }
+    .quan5 h2{
+        font-size: 15px;
+        margin-left: -250px;
+    }
+    
+    .quan5 h3{
+        font-size: 13px;
+        margin-left: -260px;
+    }
+    .quan6 img{
+        margin-top: 2400px;
+        margin-left: -360px;
+        width: 350px;
+        height: 280px;
+    }
+    .quan7 img{
+        margin-top: 100px;
+        margin-left: -375px;
+        width: 350px;
+        height: 280px;
+    }
+    .quan7 h1{
+        font-size: 30px;
+        margin-left: -250px;
+        margin-top: -260px;
+    }
+    .quan7 p{
+        font-size: 15px;
+        margin-left: -260px;
+    }
+
+    .quan8 img{
+        margin-top: 200px;
+        margin-left: -375px;
+        width: 350px;
+        height: 280px;
+      }
+      .quan8 h1{
+        font-size: 30px;
+        margin-left: -250px;
+        margin-top: -260px;}
+        .quan8 p{
+            font-size: 15px;
+            margin-left: -260px;
+        }
+        .quan8 h2{
+            font-size: 15px;
+            margin-left: -270px;
+        }
+        .quan9 img{
+            margin-top: 200px;
+            margin-left: -375px;
+            width: 350px;
+            height: 280px;
+          }
+          .quan9 h1{
+            font-size: 30px;
+            margin-left: -260px;
+            margin-top: -260px;}
+            .quan9 p{
+                font-size: 15px;
+                margin-left: -290px;
+            }
+            .quan10 img{
+                margin-top: 230px;
+                margin-bottom: -100px;
+                margin-left: -340px;
+                width: 55px;
+                height:55px;
+              }
+              .quan11 img{
+                margin-top: 40px;
+                margin-bottom: -11px;
+                margin-left: -220px;
+                width: 55px;
+                height:55px;
+              }
+              .quan12 img{
+                margin-top: -400px;
+                margin-left: -110px;
+                width: 70px;
+                height:70px;
+              }
+              .ourpartner{
+                margin-top: 250px;
+                margin-left: -400px;
+              }
+              .ourpartner div {
+    
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin: 0 auto;
+                width: 240px;
+                height: 25px;
+                overflow: hidden;
+                border-radius: 50px;
+                box-shadow: 0px 0px 20px 10px #dad8d8bd;
+            }
+         
+            .ourpartner div img{
+                position: relative;
+                border-radius: 50%;
+                width: 20px;
+                height: 20px;
+                animation: move 20s linear infinite;
+            }
+    
+}
